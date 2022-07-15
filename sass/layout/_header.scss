@@ -39,7 +39,12 @@
     margin-left: auto;
     align-items: center;
   }
-  
+  .contacts {
+    @media screen and (max-width:767px) {
+      display: none;
+    }
+  }
+
   .contacts .contacts__item {
     margin-left: 50px;
   }
@@ -71,6 +76,7 @@
     border-bottom: 1px solid #ECECEC;
   }
   .page-header {
+    position: relative;
     background-color: var(--white-text-color);
   }
   
@@ -85,6 +91,11 @@
   .nav-list {
     margin-left: 93px;
     display: flex;
+  }
+  .nav-list {
+    @media screen and (max-width:767px) {
+      display: none;
+    }
   }
 
   .nav-list__navigation:not(:last-child) {
