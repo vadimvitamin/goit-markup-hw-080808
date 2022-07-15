@@ -181,6 +181,12 @@ img {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  section.section {
+    display: none;
+  }
+}
+
 .btn-one {
   width: 73px;
   height: 38px;
@@ -417,6 +423,23 @@ img {
 .svg-container {
   fill: currentColor;
   margin-right: 10px;
+}
+
+.social {
+  display: flex;
+  list-style: none;
+}
+
+.social__link {
+  margin-right: 20px;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.social__link:not(:last-child) {
+  margin-right: 20px;
 }
 
 .client-logos {
