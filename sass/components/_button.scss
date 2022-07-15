@@ -1,0 +1,111 @@
+.btn-one {
+    width: 73px;
+    height: 38px;
+  }
+  .btn-one .active {
+  background-color:#2196F3;
+  color: #FFFFFF;
+  }
+  
+  .btn-two {
+    margin-left: 8px;
+    min-width: 128px;
+    height: 38px;
+  }
+  
+  .btn-three {
+    margin-left: 8px;
+    width: 145px;
+    height: 38px;
+  }
+  
+  .btn-four {
+    margin-left: 8px;
+    width: 103px;
+    height: 38px;
+  }
+  
+  .btn-five {
+    margin-left: 8px;
+    width: 130px;
+    height: 38px;
+  }
+
+  .buttons {
+    background-color: var(--blue-text-color);
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--white-text-color);
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    min-width: 200px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .buttons:hover,
+  .buttons:focus {
+    background-color: #188CE8;
+    color: #ffffff;
+    transition:drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .filters-button {
+    justify-content: center;
+    margin-bottom: 50px;
+    display: flex;
+  }
+  
+  .filters {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 22px;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .filters:hover {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
+  .filters:focus {
+    background-color: #2196f3;
+    color: #ffffff;
+  }
+
+  .send-button {
+    display: inline-flex;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    padding:10px 28px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: transparent;
+  }
+  .icon-send {
+    margin-left: 10px;
+    fill: #ffffff;
+  }

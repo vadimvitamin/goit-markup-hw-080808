@@ -1,0 +1,79 @@
+
+.social-links {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    padding: 0%;
+    justify-content: center;
+  }
+  
+  .item-icon {
+    margin-right: 10px;
+    list-style: none;
+    
+  }
+  
+  .icons {
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+  
+  .icons:hover,
+  .icons:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+
+  .footer-soc-links {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .footer-item-icons:not(:last-child) {
+      margin-right: 10px;}
+    
+    .footer-item-icons { 
+      border-radius: 50%;
+    }
+    
+    .footer-icons {
+      width: 44px;
+      height: 44px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .footer-icons:hover,
+    .footer-icons:focus {
+      background-color: #2196F3;
+    }
+    
+    .footer-soc-icon {
+      width: 20px;
+      height: 20px;
+      fill: #FFFFFF;
+    }
+
+    .svg-container {
+      fill: currentColor;
+      margin-right: 10px;
+    }
