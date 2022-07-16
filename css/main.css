@@ -703,10 +703,13 @@ img {
   color: #757575;
 }
 
-.workers {
-  display: flex;
-  margin-left: -30px;
-  flex-wrap: wrap;
+@media screen and (min-width: 1200px) {
+  .workers {
+    width: 1200px;
+    display: flex;
+    margin-left: -30px;
+    flex-wrap: wrap;
+  }
 }
 
 .workers__element {
@@ -748,10 +751,12 @@ img {
   align-self: center;
 }
 
-.worker-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  background-color: #F5F4FA;
+@media screen and (min-width: 1200px) {
+  .worker-container {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: #F5F4FA;
+  }
 }
 
 .specifics {
